@@ -4,7 +4,6 @@ import {
   PRODUCT_LOADED,
   REMOVE_FROM_CART,
   REMOVE_PRODUCT,
-  TOOGLE_BRAND,
 } from "../actionTypes/actionTypes";
 
 export const addProduct = (product) => {
@@ -42,9 +41,4 @@ export const loaded = (products) => {
   };
 };
 
-export const filterBrand = (brand)=>{
-  return{
-    type : TOOGLE_BRAND,
-    payload : brand
-  }
-}
+
